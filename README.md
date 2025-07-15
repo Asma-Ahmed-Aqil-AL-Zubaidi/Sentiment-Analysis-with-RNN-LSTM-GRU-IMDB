@@ -28,16 +28,19 @@ Each model includes:
 
 ##  Repository Structure
 
-Sentiment-Analysis-IMDB/
-├── data/ # IMDb dataset (if customized)
-├── preprocessing/ # Cleaning, emoji replacement, lemmatization
-├── models/ # RNN, LSTM, GRU implementation
-├── optimization/ # Optuna tuning scripts
-├── evaluation/ # Metric plots, confusion matrix, reports
-├── saved_models/ # .h5 model files
-├── notebooks/ # DL3_sentiment_analysis.ipynb
+
+Sentiment-Analysis-IMDb/
+├── data/             # IMDb dataset (if customized)
+├── preprocessing/    # Cleaning, emoji replacement, lemmatization
+├── models/           # RNN, LSTM, GRU implementations
+├── optimization/     # Optuna tuning scripts
+├── evaluation/       # Metric plots, confusion matrix, reports
+├── saved_models/     # .h5 model files
+├── notebooks/
+│   └── DL3_sentiment_analysis.ipynb
 ├── requirements.txt
 └── README.md
+
 
 
 
